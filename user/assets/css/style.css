@@ -1,0 +1,226 @@
+
+
+:root {
+    --main-font: "Open Sans";
+    --secondary-font: "Merriweather";
+    --btn-color: #015463;
+}
+
+body{
+    font-family: var(--main-font);
+    /* background-color: #E5E5E5; */
+}
+
+
+
+/* Custom CSS */
+
+.btn-bg{
+    background-color: var(--btn-color) !important;
+    color: #fff;
+    align-content: center;
+    border-radius: 4px !important;
+}
+
+.cont-section {
+    padding-top: 7% !important;
+    max-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-font);
+}
+
+.heading-2 {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.log-in-btn {
+    padding: 10px 20px;
+}
+
+.footer-cont{
+    background: #B6AA81;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date] {
+    box-shadow: 0 0 2pt 0.5pt #D3D3D3;
+    outline-width: 0px;
+}
+
+
+/* index.html */
+
+
+.right-cont-index{
+    margin-top: 25px;
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+.search-bar-cont-index{
+    position: absolute;
+}
+
+.cont-section-main-index{
+    padding-top: 7% !important;
+    height: 100vh;
+}
+
+.cont-section-index{
+    position: relative;
+}
+
+.left-cont-index{
+    margin-top: 100px;
+}
+
+.top-offers-cont{
+    background: #F3F3FA;
+    padding: 20px;
+}
+
+
+.product-item {
+    width: 300px;
+    height: 450px;
+}
+
+.profile-item{
+    width: 300px;
+}
+
+.testimonials-item{
+    width: 300px;
+    background: #F3F3FA;
+}
+
+/* .about-cont-left{
+    height: 500px;
+} */
+
+
+
+
+/* homepage.html */
+.heading-1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.left-cont {
+    padding-top: 120px;
+}
+
+.search_bar_cont{
+    background: #F3F3FA;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.right-cont{
+    margin-top: 25px;
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+
+
+/* loan-calculator.html */
+
+.cont-calc {
+    padding-top: 25px;
+}
+.right-cont-loan-calc{
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+
+}
+
+
+
+/* login.html */
+
+.right-cont-login{
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+.left-cont-login{
+    padding-top: 100px;
+}
+
+
+
+/* register.html */
+
+.left-cont-register{
+    padding-top: 20px;
+}
+
+.right-cont-register{
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+
+/* search.html */
+
+.cont-section-search {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.filter-search-cont{
+    background: #F3F3FA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000;
+    background: #A3B1E1;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #015463;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #015463;
+}
+
+input[type=range]::-ms-thumb {
+    background: #015463;
+}
+
+.card-title-price{
+    color: #1C3988 !important;
+}
+
+.btn-show-next{
+    border: 2px solid #1C3988;
+    border-radius: 4px;
+    color: #1C3988;
+}
+
+.card{
+    border: 1px solid #F3F3FA !important;
+    border-radius: 5px !important;
+}
