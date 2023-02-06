@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 :root {
-    --main-font: "Open Sans";
+    --main-font: 'Poppins',
+        sans-serif;
     --secondary-font: "Merriweather";
     --btn-color: #015463;
 }
@@ -63,13 +64,13 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
     height: 500px;
 }
 
-.search-bar-cont-index{
+/* .search-bar-cont-index{
     position: absolute;
-}
+} */
 
 .cont-section-main-index{
-    padding-top: 7% !important;
-    height: 100vh;
+    padding-top: 6% !important;
+
 }
 
 .cont-section-index{
