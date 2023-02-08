@@ -26,6 +26,7 @@ body{
 
 .cont-section {
     padding-top: 7% !important;
+    padding-bottom: 600px;
     /* max-height: 100vh; */
 }
 
@@ -137,6 +138,11 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
 
 /* loan-calculator.html */
 
+.cont-section-loan-calc{
+    padding-top: 7% !important;
+    padding-bottom: 28px;
+}
+
 .cont-calc {
     padding-top: 25px;
 }
@@ -166,6 +172,11 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
 
 
 /* register.html */
+
+.cont-section-register {
+    padding-top: 7% !important;
+    padding-bottom: 50px;
+}
 
 .left-cont-register{
     padding-top: 20px;
