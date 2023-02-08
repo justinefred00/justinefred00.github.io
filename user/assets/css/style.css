@@ -237,3 +237,10 @@ input[type=range]::-ms-thumb {
     border: 1px solid #F3F3FA !important;
     border-radius: 5px !important;
 }
+
+
+/* unit-manager-profile.html */
+
+.cont-section-unit-man{
+    padding-top: 120px;
+}
