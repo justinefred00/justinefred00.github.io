@@ -70,6 +70,9 @@ input[type=text], input[type=password], input[type=email], input[type=date], inp
     outline-width: 0px;
 }
 
+.secondary-font {
+    font-family: var(--secondary-font);
+}
 
 /* index.html */
 
@@ -253,4 +256,23 @@ input[type=range]::-ms-thumb {
 
 .cont-section-unit-man{
     padding-top: 120px;
+}
+
+
+/* listing.html */
+
+.img-cont-listing{
+    width: 100% !important;
+}
+
+.img-listing-carousel{
+    width: 250px !important;
+}
+
+.icon-clr {
+    color: #4764C3;
+}
+
+.price-listing-cont{
+    background: #F3F3FA;
 }
