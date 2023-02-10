@@ -45,7 +45,7 @@
                         <a class="nav-link" href="loan-calculator.html">Loan Calculator</a>
                     </li>
                 </ul>
-                <a class="btn btn-bg log-in-btn d-flex" href="login.html">
+                <a class="btn btn-bg log-in-btn" href="login.html">
                     Login
                 </a>
             </div>
@@ -55,7 +55,8 @@
     <div class="container cont-section-search d-flex justify-content-center align-items-center">
         <div class="row">
             <div class="col-12">
-                <h1 class="heading-1 text-center">Search for an offer</h1>
+                <h1 class="heading-1 text-center d-none d-sm-block">Search for an offer</h1>
+                <h1 class="heading-1-mobile text-center d-block d-sm-none">Search for an offer</h1>
                 <p class="text-center fs-5">Choose from the most advantageous offers</p>
             </div>
         </div>
@@ -76,7 +77,46 @@
                 <div class="col"></div>
             </div>
         </form>
-        <div class="container mt-3">
+        <!-- Desktop -->
+        <div class="container mt-3 d-block d-sm-none">
+            <p class="text-center">Filter settings</p>
+            <div class="row">
+                <div class="col-sm-12 mb-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Sale</option>
+                        <option value="1">One</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 mb-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select room flat</option>
+                        <option value="1">One</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 mb-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select location</option>
+                        <option value="1">One</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 mb-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Most expensive</option>
+                        <option value="1">One</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col"></div>
+                <div class="col-sm-12">
+                    <label for="customRange1" class="form-label">Range (Php 0 - Php 50 000 000)</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <!-- Mobile -->
+        <div class="container mt-3 d-none d-sm-block">
             <p class="text-center">Filter settings</p>
             <div class="row">
                 <div class="col">
@@ -114,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-3">
+    <div class="container my-3 pt-4">
         <div class="row row-cols-2 row-cols-lg-3 g-4">
             <div class="col">
                 <div class="card h-100">
@@ -209,7 +249,10 @@
         </div>
         <div class="row my-5">
             <div class="col"></div>
-            <div class="d-grid gap-2 col-3 col-md-2 mx-auto">
+            <div class="d-grid gap-2 col-3 col-md-2 mx-auto d-none d-sm-block">
+                <button class="btn btn-show-next" type="button">Show next</button>
+            </div>
+            <div class="d-grid gap-2 col-sm-12 mx-auto d-block d-sm-none">
                 <button class="btn btn-show-next" type="button">Show next</button>
             </div>
             <div class="col"></div>

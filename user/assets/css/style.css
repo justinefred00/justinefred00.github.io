@@ -11,6 +11,7 @@ body{
     font-family: var(--main-font);
     font-weight: 300;
     /* background-color: #E5E5E5; */
+    color: #091638;
 }
 
 
@@ -34,9 +35,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font);
 }
 
+.heading-1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.heading-1-mobile {
+    font-weight: 700;
+    font-size: 35px;
+}
+
 .heading-2 {
     font-weight: 700;
     font-size: 54px;
+}
+
+.heading-2-mobile {
+    font-weight: 700;
+    font-size: 32px;
 }
 
 .log-in-btn {
@@ -49,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 50px; */
 }
 
-input[type=text], input[type=password], input[type=email], input[type=date] {
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=checkbox], select {
     box-shadow: 0 0 2pt 0.5pt #D3D3D3;
     outline-width: 0px;
 }
@@ -71,7 +87,7 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
 } */
 
 .cont-section-main-index{
-    padding-top: 6% !important;
+    padding-top: 6%;
 
 }
 
@@ -111,10 +127,7 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
 
 
 /* homepage.html */
-.heading-1{
-    font-weight: 700;
-    font-size: 64px;
-}
+
 
 .left-cont {
     padding-top: 120px;
@@ -166,7 +179,7 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
 }
 
 .left-cont-login{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 
@@ -178,9 +191,6 @@ input[type=text], input[type=password], input[type=email], input[type=date] {
     padding-bottom: 50px;
 }
 
-.left-cont-register{
-    padding-top: 20px;
-}
 
 .right-cont-register{
     background-image: url(../images/3.png);
