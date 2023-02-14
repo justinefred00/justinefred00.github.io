@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 50px; */
 }
 
-input[type=text], input[type=password], input[type=email], input[type=date], input[type=checkbox], select {
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=checkbox], select, textarea, input[type=file] {
     box-shadow: 0 0 2pt 0.5pt #D3D3D3;
     outline-width: 0px;
 }
@@ -275,4 +275,15 @@ input[type=range]::-ms-thumb {
 
 .price-listing-cont{
     background: #F3F3FA;
+}
+
+
+/* add-listing.html */
+
+.cont-section-add-listing{
+    padding-top: 100px;
+}
+
+.listing-btn{
+    width: 150px;
 }
